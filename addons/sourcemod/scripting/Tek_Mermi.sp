@@ -33,6 +33,7 @@ public void OnPluginStart()
 	HookEvent("round_end", RoundStartEnd);
 	HookEvent("weapon_fire", WeaponFire);
 	HookEvent("player_death", OnClientDead);
+	AutoExecConfig(true, "Tek-Mermi", "ByDexter");
 	for (int i = 1; i <= MaxClients; i++)
 	if (IsClientInGame(i))
 		OnClientPostAdminCheck(i);
