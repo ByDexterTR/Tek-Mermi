@@ -126,12 +126,12 @@ Menu Menu_TekMermi()
 	if (BunnyAktifmi)
 		menu.AddItem("1", "→ Bunny: Aktif");
 	else
-		menu.AddItem("1", "→ Bunny: Devredışı");
+		menu.AddItem("1", "→ Bunny: Kapalı");
 	
 	if (SadeHsmi)
 		menu.AddItem("2", "→ Sadece HS: Aktif");
 	else
-		menu.AddItem("2", "→ Sadece HS: Devredışı");
+		menu.AddItem("2", "→ Sadece HS: Kapalı");
 	
 	if (Hangisilah == 1)
 		menu.AddItem("3", "→ Silah: Ak47");
@@ -147,12 +147,12 @@ Menu Menu_TekMermi()
 	if (Sekmeme)
 		menu.AddItem("4", "→ Sekmeme: Açık");
 	else
-		menu.AddItem("4", "→ Sekmeme: Kapat");
+		menu.AddItem("4", "→ Sekmeme: Kapalı");
 	
 	if (Gravity)
 		menu.AddItem("5", "→ Gravity: Açık\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
 	else
-		menu.AddItem("5", "→ Gravity: Kapat\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
+		menu.AddItem("5", "→ Gravity: Kapalı\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬");
 	
 	menu.ExitBackButton = false;
 	menu.ExitButton = true;
