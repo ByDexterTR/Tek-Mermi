@@ -248,8 +248,6 @@ public int Menu_Callback(Menu menu, MenuAction action, int client, int position)
 		else
 		{
 			PrintToChat(client, "[SM] Oyun zaten aktif: sm_tekmermi0");
-			delete menu;
-			return;
 		}
 	}
 	else if (action == MenuAction_End)
